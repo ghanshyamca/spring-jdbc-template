@@ -1,0 +1,19 @@
+.c16rp-related-posts {width: 100%; margin: 0; float: left; font-size: 14px;}
+.c16rp-post-thumb {margin: 0 10px 0 0; float: left; }
+
+.c16rp-post-thumb img {
+    display: block !important;
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 100% !important;
+    margin: 0 0 10px 0!important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.c16rp-related-posts h2{margin:0 0 20px 0!important;}
+.c16rp-post-thumb a { display:block; padding: 4px; width: 150px;}
+.c16rp-post-thumb a:hover {background-color: #ddd;}

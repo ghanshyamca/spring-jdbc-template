@@ -1,0 +1,197 @@
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size:20px;
+  color: #757575;
+}
+
+
+#main-container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#exit {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+.feature {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+:focus {
+  outline:none;
+}
+::-moz-focus-inner {
+  border:0;
+}
+
+
+#copy1 {
+	position: absolute;
+	top: 21px;
+	left: 304px;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+#copy2 {
+	position: absolute;
+	text-align: center;
+	top: 44px;
+	left: 310px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#copy3 {
+	position: absolute;
+	text-align: center;
+	top: 30px;
+	left: 186px;
+	-webkit-font-smoothing: antialiased;
+	opacity: 0;
+}
+
+#copy4 {
+	position: absolute;
+	font-size: 10px;
+	text-align: left;
+	top: 65px;
+	left: 656px;
+	-webkit-font-smoothing: antialiased;
+	opacity: 0;
+}
+
+
+#cta{
+	position: absolute;
+	top: 26px;
+	right: 84px;
+	background-color: #1075f4;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 2px;
+	padding: 7px 12px 7px 12px;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+}
+
+#logo {
+	position: absolute;
+	right: 615px;
+	text-align: center;
+	top: 23px;
+	z-index: 2;
+}
+
+.icon-effect {
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+
+  opacity: 0;
+
+  -webkit-transform: rotate(10deg);
+     -moz-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+       -o-transform: rotate(10deg);
+          transform: rotate(10deg);
+
+
+  background: rgba(255, 255, 255, 0.2);
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0.5) 90%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0.5) 90%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+  background: -webkit-gradient(
+    linear, left top, right top,
+    color-stop(0%  ,rgba(255, 255, 255, 0.2)),
+    color-stop(75% ,rgba(255, 255, 255, 0.2)),
+    color-stop(90% ,rgba(255, 255, 255, 0.8)),
+    color-stop(100%,rgba(255, 255, 255, 0.0))
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0.5) 90%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0.5) 90%,6
+    rgba(255, 255, 255, 0.0) 100%
+  );
+  background: linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 75%,
+    rgba(255, 255, 255, 0.5) 90%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+
+
+
+  -webkit-transition-property: left, top, opacity;
+     -moz-transition-property: left, top, opacity;
+      -ms-transition-property: left, top, opacity;
+       -o-transition-property: left, top, opacity;
+          transition-property: left, top, opacity;
+  -webkit-transition-duration: 0.5s, 0.5s, 0.1s;
+     -moz-transition-duration: 0.5s, 0.5s, 0.1s;
+      -ms-transition-duration: 0.5s, 0.5s, 0.1s;
+       -o-transition-duration: 0.5s, 0.5s, 0.1s;
+          transition-duration: 0.5s, 0.5s, 0.1s;
+  -webkit-transition-timing-function: ease;
+     -moz-transition-timing-function: ease;
+      -ms-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+/* Hover state - trigger effect */
+
+.icon-effect.shimmer {
+  opacity: 1;
+  top: -15%;
+  left: -30%;
+}
